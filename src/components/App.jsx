@@ -1,16 +1,19 @@
+import React from 'react';
+import styled from 'styled-components';
+import { Title } from './Title.jsx';
+
+const AppWrapper = styled.div`
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background: black;
+  color: white;
+`;
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <AppWrapper>
+      <Title>fsdah</Title>
+    </AppWrapper>
   );
 };
