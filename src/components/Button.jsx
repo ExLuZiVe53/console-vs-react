@@ -11,7 +11,7 @@ const rotateAnimation = keyframes`
 `;
 
 const StyledButton = styled.button.attrs(props => ({
-  outline: true,
+  outlined: true,
 }))`
   border: none;
   padding: 18px 15px;
@@ -32,7 +32,7 @@ const StyledButton = styled.button.attrs(props => ({
     `}
 
   ${props =>
-    props.outline &&
+    props.outlined &&
     css`
       color: ${props => props.color || 'white'};
       border: 1px solid ${props => props.color || 'white'};
