@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Title } from './Title.jsx';
+import { Flex } from './Flex.jsx';
+import { Console } from './Console.jsx';
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -13,7 +15,10 @@ const AppWrapper = styled.div`
 export const App = () => {
   return (
     <AppWrapper>
-      <Title>fsdah</Title>
+      <Flex justify={'center'}>
+        <Title color={'green'}>Console cmd 2022. Ulbi TV</Title>
+      </Flex>
+      <Console />
     </AppWrapper>
   );
 };
