@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Title } from './Title.jsx';
 import { Flex } from './Flex.jsx';
 import { Console } from './Console.jsx';
+import { Button } from './Button.jsx';
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -18,7 +19,10 @@ export const App = () => {
       <Flex justify={'center'}>
         <Title color={'green'}>Console cmd 2022. Ulbi TV</Title>
       </Flex>
-      <Console />
+      <Flex direction="column">
+        <Console />
+        <Button align="flex-end">Click me</Button>
+      </Flex>
     </AppWrapper>
   );
 };
