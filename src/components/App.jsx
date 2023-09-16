@@ -17,11 +17,13 @@ export const App = () => {
   return (
     <AppWrapper>
       <Flex justify={'center'}>
-        <Title color={'green'}>Console cmd 2022. Ulbi TV</Title>
+        <Title>Console cmd 2022. Ulbi TV</Title>
       </Flex>
-      <Flex direction="column">
+      <Flex direction="column" margin={'10px 0'}>
         <Console />
-        <Button align="flex-end">Click me</Button>
+        <Button color="green" outlined align="flex-end">
+          Click me
+        </Button>
       </Flex>
     </AppWrapper>
   );
