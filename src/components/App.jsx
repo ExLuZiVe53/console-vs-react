@@ -21,7 +21,7 @@ export const App = () => {
       </Flex>
       <Flex direction="column" margin={'10px 0'}>
         <Console />
-        <Button color="green" outlined align="flex-end">
+        <Button color="green" outline align="flex-end">
           Click me
         </Button>
       </Flex>
