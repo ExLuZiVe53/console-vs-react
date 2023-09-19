@@ -26,7 +26,7 @@ export const Console = ({ color, ...props }) => {
   const [lines, setLines] = useState(['C/users/ULBI_TV>']);
 
   const onKeyPress = event => {
-    if (event.charCode == 13) {
+    if (event.charCode === 13) {
       setLines([...lines, 'C/users/ULBI_TV>']);
     }
   };

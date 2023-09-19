@@ -40,9 +40,9 @@ const StyledButton = styled.button.attrs(props => ({
     `}
 `;
 
-const LargeButton = styled(StyledButton)`
-  font-size: 32px;
-`;
+// const LargeButton = styled(StyledButton)`
+//   font-size: 32px;
+// `;
 
 export const Button = props => {
   return <StyledButton {...props} />;
